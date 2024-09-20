@@ -17,8 +17,8 @@ import java.util.Map;
 public class CoinDCXWebSocketClient extends WebSocketClient {
 
     private static final Logger logger = LoggerFactory.getLogger(CoinDCXWebSocketClient.class);
-    private static final String API_KEY = "96a1329b1294cf89cb7d5fb02690008e4fafda1436a9b79d";  // Replace with your actual API key
-    private static final String SECRET = "61479bd2cba0326f9f335cfa933be86ca76517258731c8e1cb3d05d060b48cd1";  // Replace with your actual API secret
+    private static final String API_KEY = "";  // Replace with your actual API key
+    private static final String SECRET = "";  // Replace with your actual API secret
     private static final String CHANNEL = "coindcx";  // Example channel
 
     private final OrderHandler orderHandler;
